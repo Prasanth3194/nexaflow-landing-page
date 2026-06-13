@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>NexaFlow — Smarter Workflows</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com"/>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Inter:wght@400;500;600&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+
+  <!-- NAV -->
+  <nav class="nav" id="navbar">
+    <div class="nav__inner">
+      <a href="#" class="nav__logo">Nexa<span>Flow</span></a>
+      <ul class="nav__links">
+        <li><a href="#features">Features</a></li>
+        <li><a href="#how">How it works</a></li>
+        <li><a href="#testimonials">Reviews</a></li>
+        <li><a href="#contact" class="nav__cta">Get Started</a></li>
+      </ul>
+      <button class="nav__burger" id="burger" aria-label="Open menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="hero__bg-grid"></div>
+    <div class="hero__content">
+      <div class="hero__eyebrow">Now in public beta</div>
+      <h1 class="hero__headline">
+        Workflows that<br/><em>think ahead</em>
+      </h1>
+      <p class="hero__sub">NexaFlow connects your tools, automates the repetitive, and gives your team back the hours that matter.</p>
+      <div class="hero__actions">
+        <a href="#contact" class="btn btn--primary">Start free trial</a>
+        <a href="#how" class="btn btn--ghost">See how it works →</a>
+      </div>
+      <div class="hero__stats">
+        <div class="stat"><span class="stat__num">12k+</span><span class="stat__label">Teams using NexaFlow</span></div>
+        <div class="stat__divider"></div>
+        <div class="stat"><span class="stat__num">4.9★</span><span class="stat__label">Average rating</span></div>
+        <div class="stat__divider"></div>
+        <div class="stat"><span class="stat__num">3hrs</span><span class="stat__label">Saved per person/day</span></div>
+      </div>
+    </div>
+    <div class="hero__visual">
+      <div class="dashboard-mock">
+        <div class="mock__topbar">
+          <div class="mock__dots"><span></span><span></span><span></span></div>
+          <div class="mock__title">NexaFlow Dashboard</div>
+        </div>
+        <div class="mock__body">
+          <div class="mock__sidebar">
+            <div class="mock__nav-item active"></div>
+            <div class="mock__nav-item"></div>
+            <div class="mock__nav-item"></div>
+            <div class="mock__nav-item"></div>
+          </div>
+          <div class="mock__main">
+            <div class="mock__cards">
+              <div class="mock__card pulse-1"><div class="mock__card-label">Tasks Done</div><div class="mock__card-val">284</div></div>
+              <div class="mock__card pulse-2"><div class="mock__card-label">Active Flows</div><div class="mock__card-val">17</div></div>
+              <div class="mock__card pulse-3"><div class="mock__card-label">Time Saved</div><div class="mock__card-val">61h</div></div>
+            </div>
+            <div class="mock__chart">
+              <div class="mock__bars">
+                <div class="mock__bar" style="height:45%"></div>
+                <div class="mock__bar" style="height:70%"></div>
+                <div class="mock__bar" style="height:55%"></div>
+                <div class="mock__bar" style="height:90%"></div>
+                <div class="mock__bar" style="height:65%"></div>
+                <div class="mock__bar" style="height:80%"></div>
+                <div class="mock__bar highlight" style="height:95%"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- LOGOS -->
+  <section class="logos">
+    <p class="logos__label">Trusted by teams at</p>
+    <div class="logos__track">
+      <span>Stripe</span><span>Notion</span><span>Figma</span><span>Linear</span><span>Vercel</span><span>Loom</span>
+    </div>
+  </section>
+
+  <!-- FEATURES -->
+  <section class="features" id="features">
+    <div class="section-header">
+      <div class="eyebrow">Features</div>
+      <h2>Everything your team needs</h2>
+      <p>Built for speed, designed for humans.</p>
+    </div>
+    <div class="features__grid">
+      <div class="feature-card">
+        <div class="feature-card__icon">⚡</div>
+        <h3>Instant Automation</h3>
+        <p>Set up workflows in minutes, not days. No code required — drag, connect, launch.</p>
+      </div>
+      <div class="feature-card featured">
+        <div class="feature-card__badge">Most popular</div>
+        <div class="feature-card__icon">🔗</div>
+        <h3>200+ Integrations</h3>
+        <p>Connect Slack, Jira, Notion, Gmail, and everything in between without friction.</p>
+      </div>
+      <div class="feature-card">
+        <div class="feature-card__icon">📊</div>
+        <h3>Live Analytics</h3>
+        <p>Real-time dashboards show exactly where time is spent and where to improve.</p>
+      </div>
+      <div class="feature-card">
+        <div class="feature-card__icon">🔒</div>
+        <h3>Enterprise Security</h3>
+        <p>SOC 2 Type II certified. Your data stays yours — encrypted at rest and in transit.</p>
+      </div>
+      <div class="feature-card">
+        <div class="feature-card__icon">🤝</div>
+        <h3>Team Collaboration</h3>
+        <p>Shared workflow libraries, role-based access, and audit logs built in from day one.</p>
+      </div>
+      <div class="feature-card">
+        <div class="feature-card__icon">🧠</div>
+        <h3>AI Suggestions</h3>
+        <p>NexaFlow learns your patterns and suggests automations before you think to ask.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- HOW IT WORKS -->
+  <section class="how" id="how">
+    <div class="section-header">
+      <div class="eyebrow">How it works</div>
+      <h2>Up and running in three steps</h2>
+    </div>
+    <div class="steps">
+      <div class="step">
+        <div class="step__num">01</div>
+        <div class="step__content">
+          <h3>Connect your tools</h3>
+          <p>Authorize your existing apps in one click. NexaFlow maps what they can share automatically.</p>
+        </div>
+      </div>
+      <div class="step__line"></div>
+      <div class="step">
+        <div class="step__num">02</div>
+        <div class="step__content">
+          <h3>Design your flow</h3>
+          <p>Use the visual builder to define triggers and actions. Preview runs before you go live.</p>
+        </div>
+      </div>
+      <div class="step__line"></div>
+      <div class="step">
+        <div class="step__num">03</div>
+        <div class="step__content">
+          <h3>Watch it run</h3>
+          <p>Flows execute silently in the background. Get notified only when something needs your attention.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- TESTIMONIALS -->
+  <section class="testimonials" id="testimonials">
+    <div class="section-header">
+      <div class="eyebrow">Reviews</div>
+      <h2>Teams love NexaFlow</h2>
+    </div>
+    <div class="testimonials__grid">
+      <div class="tcard">
+        <div class="tcard__stars">★★★★★</div>
+        <p>"We cut our sprint planning time in half. NexaFlow handles all the ticket syncing we used to do manually every Monday morning."</p>
+        <div class="tcard__author">
+          <div class="tcard__avatar" style="background:#6c63ff">AK</div>
+          <div>
+            <strong>Arjun Kapoor</strong>
+            <span>Engineering Lead, Razorpay</span>
+          </div>
+        </div>
+      </div>
+      <div class="tcard tcard--highlight">
+        <div class="tcard__stars">★★★★★</div>
+        <p>"Our onboarding flow used to take 3 engineers. Now it's one NexaFlow template. The ROI was immediate and obvious."</p>
+        <div class="tcard__author">
+          <div class="tcard__avatar" style="background:#ff6584">SM</div>
+          <div>
+            <strong>Sara Mitchell</strong>
+            <span>COO, Loom</span>
+          </div>
+        </div>
+      </div>
+      <div class="tcard">
+        <div class="tcard__stars">★★★★★</div>
+        <p>"I evaluated six automation tools. NexaFlow was the only one that didn't require a dedicated Ops person to maintain it."</p>
+        <div class="tcard__author">
+          <div class="tcard__avatar" style="background:#43d9ad">PL</div>
+          <div>
+            <strong>Priya Lal</strong>
+            <span>Head of Product, Linear</span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Slider dots -->
+    <div class="tslider__dots">
+      <span class="dot active"></span>
+      <span class="dot"></span>
+      <span class="dot"></span>
+    </div>
+  </section>
+
+  <!-- CONTACT / CTA -->
+  <section class="contact" id="contact">
+    <div class="contact__card">
+      <div class="eyebrow">Get started today</div>
+      <h2>Free for your first 30 days</h2>
+      <p>No credit card required. Cancel any time.</p>
+      <form class="contact__form" id="contactForm" novalidate>
+        <div class="form__row">
+          <div class="form__group">
+            <label for="name">Full name</label>
+            <input type="text" id="name" placeholder="Riya Sharma" autocomplete="name"/>
+            <span class="form__error" id="nameErr"></span>
+          </div>
+          <div class="form__group">
+            <label for="email">Work email</label>
+            <input type="email" id="email" placeholder="riya@company.com" autocomplete="email"/>
+            <span class="form__error" id="emailErr"></span>
+          </div>
+        </div>
+        <div class="form__group">
+          <label for="company">Company (optional)</label>
+          <input type="text" id="company" placeholder="Acme Inc."/>
+        </div>
+        <button type="submit" class="btn btn--primary btn--full">Start free trial →</button>
+        <p class="form__note">By signing up you agree to our <a href="#">Terms</a> and <a href="#">Privacy Policy</a>.</p>
+      </form>
+      <div class="contact__success" id="successMsg" hidden>
+        <span>🎉</span>
+        <h3>You're on the list!</h3>
+        <p>We'll be in touch within 24 hours.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="footer__inner">
+      <a href="#" class="nav__logo">Nexa<span>Flow</span></a>
+      <p>© 2025 NexaFlow Inc. All rights reserved.</p>
+      <div class="footer__links">
+        <a href="#">Privacy</a>
+        <a href="#">Terms</a>
+        <a href="#">Twitter</a>
+        <a href="#">GitHub</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+</html>
